@@ -3,7 +3,7 @@
 #Probado en Debian 9 y Ubuntu server 18.04
 
 #Crear script prelogin y dar permisos
-cp ~/prelogin-editable.sh /etc/prelogin.sh
+cp prelogin-editable.sh /etc/prelogin.sh
 chmod +x /etc/prelogin.sh
 
 #Crear script /etc/rc.local y dar permisos

@@ -8,4 +8,4 @@ echo " " >> /etc/issue
 echo "IP: $(hostname -I)" >> /etc/issue
 echo " " >> /etc/issue
 
-exit 0
+

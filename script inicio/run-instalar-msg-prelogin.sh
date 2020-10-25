@@ -11,7 +11,7 @@ touch /etc/rc.local
 chmod +x /etc/rc.local
 
 #Contenido archivo
-echo "#!/bin/bash"  >> /etc/rc.local
+echo "#!/bin/bash"  > /etc/rc.local
 echo "/etc/prelogin.sh" >> /etc/rc.local
 echo "exit 0" >> /etc/rc.local
 

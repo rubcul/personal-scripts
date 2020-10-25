@@ -22,4 +22,3 @@ echo "Reincio en 5 segundos..."
 sleep 5
 systemctl reboot
 
-exit 0
